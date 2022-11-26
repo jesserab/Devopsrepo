@@ -26,6 +26,8 @@ public class DockerapiApplication {
 		String json = result.getBody();
 		System.out.println(json);
 
+		System.out.println("Pipeline works fine");
+
 		String s = "j" ;
 		return  s;
 
