@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class DockerapiApplication {
 
 	static String test(){
-		String token = "b6243b33-7d85-4af1-985a-51769c5c91b1";
+		String token = "$secrets.APItoken";
 		HttpHeaders headers = new HttpHeaders();
 		headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 		//headers.set("Authorization", String.format("X-CMC_PRO_API_KEY %s", token));
